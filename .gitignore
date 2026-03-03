@@ -1,0 +1,53 @@
+# ── Backend (Java / Maven / Spring Boot) ─────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.pid
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+HELP.md
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.eclipse
+
+# ── Frontend (Node / Vite / React) ───────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Build test artifacts
+frontend/build_output.txt
+frontend/build_output_2.txt
+frontend/verify_output.txt
+frontend/verify_test.log
+frontend/verify_full_flow.js
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# ── OS / Editor ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Uploads (user content, not tracked in git) ────────────────────────────
+uploads/
